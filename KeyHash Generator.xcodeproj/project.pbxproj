@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87518DE19115E0B00FEAAF8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87518DD19115E0B00FEAAF8 /* Cocoa.framework */; };
+		E87518E819115E0B00FEAAF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E87518E619115E0B00FEAAF8 /* InfoPlist.strings */; };
+		E87518EA19115E0B00FEAAF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E87518E919115E0B00FEAAF8 /* main.m */; };
+		E87518EE19115E0B00FEAAF8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E87518EC19115E0B00FEAAF8 /* Credits.rtf */; };
+		E87518F119115E0B00FEAAF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E87518F019115E0B00FEAAF8 /* AppDelegate.m */; };
+		E87518F419115E0B00FEAAF8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E87518F219115E0B00FEAAF8 /* MainMenu.xib */; };
+		E87518F619115E0B00FEAAF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87518F519115E0B00FEAAF8 /* Images.xcassets */; };
+		E87518FD19115E0B00FEAAF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87518FC19115E0B00FEAAF8 /* XCTest.framework */; };
+		E87518FE19115E0B00FEAAF8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87518DD19115E0B00FEAAF8 /* Cocoa.framework */; };
+		E875190619115E0B00FEAAF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E875190419115E0B00FEAAF8 /* InfoPlist.strings */; };
+		E875190819115E0B00FEAAF8 /* KeyHash_GeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E875190719115E0B00FEAAF8 /* KeyHash_GeneratorTests.m */; };
+		E875191319115E3B00FEAAF8 /* DragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E875191219115E3B00FEAAF8 /* DragDropImageView.m */; };
+		E875191619115E5E00FEAAF8 /* web_hi_res_512.png in Resources */ = {isa = PBXBuildFile; fileRef = E875191419115E5E00FEAAF8 /* web_hi_res_512.png */; };
+		E875191719115E5E00FEAAF8 /* paypal_donation_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E875191519115E5E00FEAAF8 /* paypal_donation_button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E87518FF19115E0B00FEAAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87518D219115E0B00FEAAF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87518D919115E0B00FEAAF8;
+			remoteInfo = "KeyHash Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E87518DA19115E0B00FEAAF8 /* KeyHash Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeyHash Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87518DD19115E0B00FEAAF8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E87518E019115E0B00FEAAF8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E87518E119115E0B00FEAAF8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E87518E219115E0B00FEAAF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E87518E519115E0B00FEAAF8 /* KeyHash Generator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyHash Generator-Info.plist"; sourceTree = "<group>"; };
+		E87518E719115E0B00FEAAF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E87518E919115E0B00FEAAF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E87518EB19115E0B00FEAAF8 /* KeyHash Generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyHash Generator-Prefix.pch"; sourceTree = "<group>"; };
+		E87518ED19115E0B00FEAAF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E87518EF19115E0B00FEAAF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E87518F019115E0B00FEAAF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E87518F319115E0B00FEAAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E87518F519115E0B00FEAAF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E87518FB19115E0B00FEAAF8 /* KeyHash GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeyHash GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87518FC19115E0B00FEAAF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E875190319115E0B00FEAAF8 /* KeyHash GeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyHash GeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		E875190519115E0B00FEAAF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E875190719115E0B00FEAAF8 /* KeyHash_GeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyHash_GeneratorTests.m; sourceTree = "<group>"; };
+		E875191119115E3B00FEAAF8 /* DragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropImageView.h; sourceTree = "<group>"; };
+		E875191219115E3B00FEAAF8 /* DragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropImageView.m; sourceTree = "<group>"; };
+		E875191419115E5E00FEAAF8 /* web_hi_res_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_hi_res_512.png; sourceTree = "<group>"; };
+		E875191519115E5E00FEAAF8 /* paypal_donation_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paypal_donation_button.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E87518D719115E0B00FEAAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87518DE19115E0B00FEAAF8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87518F819115E0B00FEAAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87518FE19115E0B00FEAAF8 /* Cocoa.framework in Frameworks */,
+				E87518FD19115E0B00FEAAF8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E87518D119115E0B00FEAAF8 = {
+			isa = PBXGroup;
+			children = (
+				E87518E319115E0B00FEAAF8 /* KeyHash Generator */,
+				E875190119115E0B00FEAAF8 /* KeyHash GeneratorTests */,
+				E87518DC19115E0B00FEAAF8 /* Frameworks */,
+				E87518DB19115E0B00FEAAF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E87518DB19115E0B00FEAAF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87518DA19115E0B00FEAAF8 /* KeyHash Generator.app */,
+				E87518FB19115E0B00FEAAF8 /* KeyHash GeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87518DC19115E0B00FEAAF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E87518DD19115E0B00FEAAF8 /* Cocoa.framework */,
+				E87518FC19115E0B00FEAAF8 /* XCTest.framework */,
+				E87518DF19115E0B00FEAAF8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E87518DF19115E0B00FEAAF8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E87518E019115E0B00FEAAF8 /* AppKit.framework */,
+				E87518E119115E0B00FEAAF8 /* CoreData.framework */,
+				E87518E219115E0B00FEAAF8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E87518E319115E0B00FEAAF8 /* KeyHash Generator */ = {
+			isa = PBXGroup;
+			children = (
+				E875191819115E7000FEAAF8 /* resources */,
+				E875191119115E3B00FEAAF8 /* DragDropImageView.h */,
+				E875191219115E3B00FEAAF8 /* DragDropImageView.m */,
+				E87518EF19115E0B00FEAAF8 /* AppDelegate.h */,
+				E87518F019115E0B00FEAAF8 /* AppDelegate.m */,
+				E87518F219115E0B00FEAAF8 /* MainMenu.xib */,
+				E87518F519115E0B00FEAAF8 /* Images.xcassets */,
+				E87518E419115E0B00FEAAF8 /* Supporting Files */,
+			);
+			path = "KeyHash Generator";
+			sourceTree = "<group>";
+		};
+		E87518E419115E0B00FEAAF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87518E519115E0B00FEAAF8 /* KeyHash Generator-Info.plist */,
+				E87518E619115E0B00FEAAF8 /* InfoPlist.strings */,
+				E87518E919115E0B00FEAAF8 /* main.m */,
+				E87518EB19115E0B00FEAAF8 /* KeyHash Generator-Prefix.pch */,
+				E87518EC19115E0B00FEAAF8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E875190119115E0B00FEAAF8 /* KeyHash GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E875190719115E0B00FEAAF8 /* KeyHash_GeneratorTests.m */,
+				E875190219115E0B00FEAAF8 /* Supporting Files */,
+			);
+			path = "KeyHash GeneratorTests";
+			sourceTree = "<group>";
+		};
+		E875190219115E0B00FEAAF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E875190319115E0B00FEAAF8 /* KeyHash GeneratorTests-Info.plist */,
+				E875190419115E0B00FEAAF8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E875191819115E7000FEAAF8 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E875191419115E5E00FEAAF8 /* web_hi_res_512.png */,
+				E875191519115E5E00FEAAF8 /* paypal_donation_button.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E87518D919115E0B00FEAAF8 /* KeyHash Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E875190B19115E0B00FEAAF8 /* Build configuration list for PBXNativeTarget "KeyHash Generator" */;
+			buildPhases = (
+				E87518D619115E0B00FEAAF8 /* Sources */,
+				E87518D719115E0B00FEAAF8 /* Frameworks */,
+				E87518D819115E0B00FEAAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeyHash Generator";
+			productName = "KeyHash Generator";
+			productReference = E87518DA19115E0B00FEAAF8 /* KeyHash Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E87518FA19115E0B00FEAAF8 /* KeyHash GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E875190E19115E0B00FEAAF8 /* Build configuration list for PBXNativeTarget "KeyHash GeneratorTests" */;
+			buildPhases = (
+				E87518F719115E0B00FEAAF8 /* Sources */,
+				E87518F819115E0B00FEAAF8 /* Frameworks */,
+				E87518F919115E0B00FEAAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E875190019115E0B00FEAAF8 /* PBXTargetDependency */,
+			);
+			name = "KeyHash GeneratorTests";
+			productName = "KeyHash GeneratorTests";
+			productReference = E87518FB19115E0B00FEAAF8 /* KeyHash GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E87518D219115E0B00FEAAF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PeleBit;
+				TargetAttributes = {
+					E87518FA19115E0B00FEAAF8 = {
+						TestTargetID = E87518D919115E0B00FEAAF8;
+					};
+				};
+			};
+			buildConfigurationList = E87518D519115E0B00FEAAF8 /* Build configuration list for PBXProject "KeyHash Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E87518D119115E0B00FEAAF8;
+			productRefGroup = E87518DB19115E0B00FEAAF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E87518D919115E0B00FEAAF8 /* KeyHash Generator */,
+				E87518FA19115E0B00FEAAF8 /* KeyHash GeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E87518D819115E0B00FEAAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87518E819115E0B00FEAAF8 /* InfoPlist.strings in Resources */,
+				E87518F619115E0B00FEAAF8 /* Images.xcassets in Resources */,
+				E87518EE19115E0B00FEAAF8 /* Credits.rtf in Resources */,
+				E87518F419115E0B00FEAAF8 /* MainMenu.xib in Resources */,
+				E875191719115E5E00FEAAF8 /* paypal_donation_button.png in Resources */,
+				E875191619115E5E00FEAAF8 /* web_hi_res_512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87518F919115E0B00FEAAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E875190619115E0B00FEAAF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E87518D619115E0B00FEAAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87518F119115E0B00FEAAF8 /* AppDelegate.m in Sources */,
+				E875191319115E3B00FEAAF8 /* DragDropImageView.m in Sources */,
+				E87518EA19115E0B00FEAAF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87518F719115E0B00FEAAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E875190819115E0B00FEAAF8 /* KeyHash_GeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E875190019115E0B00FEAAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87518D919115E0B00FEAAF8 /* KeyHash Generator */;
+			targetProxy = E87518FF19115E0B00FEAAF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E87518E619115E0B00FEAAF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87518E719115E0B00FEAAF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E87518EC19115E0B00FEAAF8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87518ED19115E0B00FEAAF8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E87518F219115E0B00FEAAF8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87518F319115E0B00FEAAF8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E875190419115E0B00FEAAF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E875190519115E0B00FEAAF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E875190919115E0B00FEAAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E875190A19115E0B00FEAAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E875190C19115E0B00FEAAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyHash Generator/KeyHash Generator-Prefix.pch";
+				INFOPLIST_FILE = "KeyHash Generator/KeyHash Generator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelebit.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E875190D19115E0B00FEAAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyHash Generator/KeyHash Generator-Prefix.pch";
+				INFOPLIST_FILE = "KeyHash Generator/KeyHash Generator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelebit.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E875190F19115E0B00FEAAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyHash Generator.app/Contents/MacOS/KeyHash Generator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyHash Generator/KeyHash Generator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KeyHash GeneratorTests/KeyHash GeneratorTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelebit.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E875191019115E0B00FEAAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyHash Generator.app/Contents/MacOS/KeyHash Generator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyHash Generator/KeyHash Generator-Prefix.pch";
+				INFOPLIST_FILE = "KeyHash GeneratorTests/KeyHash GeneratorTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pelebit.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E87518D519115E0B00FEAAF8 /* Build configuration list for PBXProject "KeyHash Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E875190919115E0B00FEAAF8 /* Debug */,
+				E875190A19115E0B00FEAAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E875190B19115E0B00FEAAF8 /* Build configuration list for PBXNativeTarget "KeyHash Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E875190C19115E0B00FEAAF8 /* Debug */,
+				E875190D19115E0B00FEAAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E875190E19115E0B00FEAAF8 /* Build configuration list for PBXNativeTarget "KeyHash GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E875190F19115E0B00FEAAF8 /* Debug */,
+				E875191019115E0B00FEAAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E87518D219115E0B00FEAAF8 /* Project object */;
+}
